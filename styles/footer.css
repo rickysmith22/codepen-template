@@ -1,0 +1,29 @@
+.footer {
+    margin: 5px;
+    height: 100px;
+    width: 100%;
+    color: ivory;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly; 
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.footer > .footer-boxes {
+    height: 70px;
+    width: 100%;
+}
+
+.footer > .footer-boxes > p {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 1.25em;
+}
+
+.footer > .footer-boxes > p > .bold-word {
+    font-size: 1.25em;
+    font-weight: 900;
+}
+
